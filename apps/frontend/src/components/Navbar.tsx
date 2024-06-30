@@ -1,4 +1,4 @@
-import { Box, Container, HStack, Image } from "@chakra-ui/react";
+import { Box, Container, HStack, Image, Text } from "@chakra-ui/react";
 import { ConnectWalletButton } from "./ConnectWalletButton";
 export const Navbar = () => {
   return (
@@ -20,8 +20,15 @@ export const Navbar = () => {
         alignItems={"center"}
         maxW={"container.xl"}
       >
-        <HStack flex={1} justifyContent={"start"}>
+        {/* <HStack flex={1} justifyContent={"start"}>
           <Image src="/Filo_Logo.svg" />
+        </HStack> */}
+
+        <HStack alignSelf={{ base: "left", md: "flex-start" }}>
+          <Image src="/Filo_Logo.svg" h={16} borderRadius={16} />
+          <Text fontSize={24} fontWeight={800}>
+            Filo
+          </Text>
         </HStack>
 
         <HStack flex={1} spacing={4} justifyContent={"end"}>

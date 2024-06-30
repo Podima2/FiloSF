@@ -2,6 +2,7 @@
 import {
   VStack,
   Text,
+  Image,
   Container,
   HStack,
   Box,
@@ -21,14 +22,15 @@ export const Footer: React.FC = () => {
     <VStack>
       <HStack justifyContent={"space-between"} w="full" spacing={4} my={4}>
         <Box my={14}>
-          <BeBetterVeBetterIcon
+          <Image src="/Filo_Logo.svg" h={16} borderRadius={16} />
+          {/* <BeBetterVeBetterIcon
             beBetterProps={{
               width: "80%",
             }}
             veBetterProps={{
               width: "100%",
             }}
-          />
+          /> */}
         </Box>
         <VStack spacing={4} alignItems={"flex-end"}>
           <DiscordButton />

@@ -4,18 +4,18 @@ import { Step } from "./Step";
 const Steps = [
   {
     icon: "/steps/1.svg",
-    title: "Purchase eco-friendly products",
-    description: "Buy products that are eco-friendly and sustainable.",
-  },
-  {
-    icon: "/steps/2.svg",
-    title: "Upload the receipt",
-    description: "Upload your receipt and AI will verify the products.",
+    title: "Collect PET or HDPE plastic waste",
+    description: "Collect category 1 or 2 plastics.",
   },
   {
     icon: "/steps/3.svg",
-    title: "Earn rewards",
-    description: "Earn B3TR for purchasing eco-friendly products.",
+    title: "Transform it into 3D printing filament",
+    description: "Upload proof, AI will verify and earn B3TR for your noble pursuit.",
+  },
+  {
+    icon: "/steps/2.svg",
+    title: "Sell your product",
+    description: "You are encouraged to design a product for your local economy.",
   },
 ];
 

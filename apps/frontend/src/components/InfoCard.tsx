@@ -23,17 +23,17 @@ export const InfoCard = () => {
             direction={{ base: "column", md: "row" }}
             alignItems={"center"}
           >
-            <HStack alignSelf={{ base: "center", md: "flex-start" }}>
-              <Image src="/logo.png" h={16} borderRadius={16} />
+            {/* <HStack alignSelf={{ base: "center", md: "flex-start" }}>
+              <Image src="/Filo_Logo.svg" h={16} borderRadius={16} />
               <Text fontSize={24} fontWeight={800}>
                 Filo
               </Text>
-            </HStack>
+            </HStack> */}
             <Flex
               mt={{ base: 4, md: 0 }}
               direction={{ base: "column", md: "row" }}
             >
-              <Link isExternal href="https://github.com/vechain/x-app-template">
+              <Link isExternal href="https://github.com/Podima2/FiloSF">
                 <Button
                   rounded={"full"}
                   colorScheme="primary"

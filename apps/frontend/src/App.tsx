@@ -7,6 +7,7 @@ import {
   Instructions,
   Navbar,
   SubmissionModal,
+  Listings,
 } from "./components";
 import { lightTheme } from "./theme";
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
@@ -41,6 +42,7 @@ function App() {
               <InfoCard />
               <Instructions />
               <Dropzone />
+              <Listings />
             </Container>
           </Flex>
           <Footer />

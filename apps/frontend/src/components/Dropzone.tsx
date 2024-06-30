@@ -110,7 +110,7 @@ export const Dropzone = () => {
         <input {...getInputProps()} />
         <HStack>
           <ScanIcon size={120} color={"gray"} />
-          <Text>Upload to scan</Text>
+          <Text>Upload proof of recycling plastic into filament</Text>
         </HStack>
       </Box>
     </VStack>
