@@ -21,13 +21,17 @@ export class OpenaiService {
                     }
                     `;
 
-    const gptResponse = await openAIHelper.askChatGPTAboutImage({
-      base64Image: image,
-      prompt,
-    });
+    // const gptResponse = await openAIHelper.askChatGPTAboutImage({
+    //   base64Image: image,
+    //   prompt,
+    // });
 
-    const responseJSONStr = openAIHelper.getResponseJSONString(gptResponse);
+    // const responseJSONStr = openAIHelper.getResponseJSONString(gptResponse);
 
-    return openAIHelper.parseChatGPTJSONString(responseJSONStr);
+    // return openAIHelper.parseChatGPTJSONString(responseJSONStr);
+
+    return {
+      validityFactor: 1
+    }
   }
 }
