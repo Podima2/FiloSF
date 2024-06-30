@@ -8,10 +8,15 @@ import {
   Flex,
   Divider,
   Button,
-  useBreakpointValue,
 } from "@chakra-ui/react";
 
-const Listing = ({ imageSrc, title, description, price }) => (
+type Props = {
+  imageSrc: string
+  title: string
+  description: string
+  price: string 
+}
+const Listing = ({ imageSrc, title, description, price }: Props) => (
   <Card
     w={"full"}
     p={4}
