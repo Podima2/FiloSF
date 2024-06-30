@@ -1,9 +1,8 @@
 import { DAppKitProvider } from "@vechain/dapp-kit-react";
-import { ChakraProvider, Container, Flex } from "@chakra-ui/react";
+import { ChakraProvider, Container, Flex, Image } from "@chakra-ui/react";
 import {
   Dropzone,
   Footer,
-  InfoCard,
   Instructions,
   Navbar,
   SubmissionModal,
@@ -38,8 +37,9 @@ function App() {
               alignItems={"center"}
               justifyContent={"flex-start"}
               flexDirection={"column"}
+              gap={8}
             >
-              <InfoCard />
+              <Image src="/CoverPhoto.png" borderRadius={16} />
               <Instructions />
               <Dropzone />
               <Listings />

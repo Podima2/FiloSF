@@ -1,5 +1,6 @@
-import { Box, Container, HStack, Image, Text } from "@chakra-ui/react";
+import { Box, Button, Container, HStack, Image, Link, Text } from "@chakra-ui/react";
 import { ConnectWalletButton } from "./ConnectWalletButton";
+import { MdOutlineArrowOutward } from "react-icons/md";
 export const Navbar = () => {
   return (
     <Box
@@ -32,6 +33,18 @@ export const Navbar = () => {
         </HStack>
 
         <HStack flex={1} spacing={4} justifyContent={"end"}>
+        <Link isExternal href="https://github.com/Podima2/FiloSF">
+                <Button
+                  rounded={"full"}
+                  colorScheme="primary"
+                  size={"md"}
+                  leftIcon={<MdOutlineArrowOutward />}
+                  mt={{ base: 2, md: 0 }}
+                  ml={{ base: 0, md: 2 }}
+                >
+                  Github repository
+                </Button>
+              </Link>
           <ConnectWalletButton />
         </HStack>
       </Container>
